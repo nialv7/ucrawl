@@ -1,5 +1,5 @@
 @http://www.google.com@ {
-	~/document/ {
-		/* writeln(capture[0]); */
+	~/document(.)/ {
+		/* writeln(capture[1]); */
 	}
 }

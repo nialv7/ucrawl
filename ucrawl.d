@@ -119,7 +119,7 @@ success:
 	string res = "Captures!(char[]) capture;\n";
 	foreach(f; re2.result)
 		res ~= f.d_code;
-	res ~= "foreach(c; matchAll(webpage, ctRegex!\""~regex~"\")){\ncapture = c;\n";
+	res ~= "foreach(c; matchAll(webpage, ctRegex!r\""~regex~"\")){\ncapture = c;\n";
 	foreach(f; re2.result)
 		res ~= f.name~"();\n";
 	res ~= "}\n";
