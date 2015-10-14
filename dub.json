@@ -1,0 +1,11 @@
+{
+	"name": "ucrawl",
+	"description": "uCrawl",
+	"copyright": "Public domain",
+	"authors": ["nialv7"],
+	"dependencies": {
+		"sdpc" : "~master"
+	},
+	"targetType" : "executable",
+	"mainSourceFile" : "ucrawl.d"
+}

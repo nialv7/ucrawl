@@ -1,0 +1,5 @@
+@http://www.google.com@ {
+	~/document/ {
+		/* writeln(capture[0]); */
+	}
+}
